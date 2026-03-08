@@ -1,0 +1,120 @@
+*{
+margin:0;
+padding:0;
+font-family:Arial;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+background:white;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+background:black;
+color:white;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+background:#333;
+color:white;
+text-align:center;
+}
+
+.hero button{
+margin-top:20px;
+padding:10px 25px;
+border:none;
+background:white;
+cursor:pointer;
+}
+
+/* ABOUT */
+
+.about{
+padding:60px;
+text-align:center;
+background:#f2f2f2;
+}
+
+/* SKILLS */
+
+.skills{
+padding:60px;
+text-align:center;
+}
+
+.skill-box{
+display:inline-block;
+background:black;
+color:white;
+padding:10px 20px;
+margin:10px;
+border-radius:20px;
+}
+
+/* EDUCATION */
+
+.education{
+padding:60px;
+text-align:center;
+background:#f2f2f2;
+}
+
+.edu-box{
+background:white;
+margin:20px auto;
+padding:20px;
+width:300px;
+border:1px solid grey;
+}
+
+/* CONTACT */
+
+.contact{
+padding:60px;
+text-align:center;
+}
+
+.linkedin{
+background:black;
+color:white;
+padding:10px 20px;
+border:none;
+cursor:pointer;
+}
+
+footer{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+}
